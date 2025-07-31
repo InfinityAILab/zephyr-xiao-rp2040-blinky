@@ -3,11 +3,11 @@
 A simple LED blinky application for the Seeed XIAO RP2040 board running Zephyr RTOS.
 
 ## Building
-```bash
+```
 (zephyrproject) zephyr-xiao-rp2040-blinky $ cat ~/setup_zephyr.sh
 ```
 
-```
+```bash
 #!/bin/bash
 # save as ~/setup_zephyr.sh
 
