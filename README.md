@@ -3,6 +3,26 @@
 A simple LED blinky application for the Seeed XIAO RP2040 board running Zephyr RTOS.
 
 ## Building
+```bash
+(zephyrproject) zephyr-xiao-rp2040-blinky $ cat ~/setup_zephyr.sh
+#!/bin/bash
+# save as ~/setup_zephyr.sh
+
+# Activate virtual environment
+source ~/zephyrproject/.venv/bin/activate
+
+# Set environment variables
+export ZEPHYR_BASE=~/zephyrproject/zephyr
+export ZEPHYR_SDK_INSTALL_DIR=~/zephyr-sdk-0.17.2
+
+# Source Zephyr environment
+source ~/zephyrproject/zephyr/zephyr-env.sh
+
+echo "Zephyr environment ready!"
+echo "ZEPHYR_BASE: $ZEPHYR_BASE"
+echo "SDK: $ZEPHYR_SDK_INSTALL_DIR"
+```
+
 
 ```bash
 # Set up Zephyr environment
